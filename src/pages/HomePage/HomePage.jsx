@@ -2,7 +2,7 @@
 
 import Footer from "../../shared/components/footer/Footer"
 import Header from "../../shared/components/Header/Header"
-import FiltroDenuncias from "./components/FiltroDenuncias/FiltroDenuncias"
+import FiltroDenuncias from "../../shared/components/FiltroDenuncias/FiltroDenuncias.jsx"
 import ListagemDenuncias from "./components/ListagemDenuncias/ListagemDenuncias.jsx"
 import "./HomePage.css"
 
