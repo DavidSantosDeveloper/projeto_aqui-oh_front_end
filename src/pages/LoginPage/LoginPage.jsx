@@ -1,9 +1,13 @@
 import "./LoginPage.css"
-
+import Header from "../../shared/components/Header/Header.jsx"
 
 function LoginPage(){
     return (
         <>
+
+            <Header>
+                
+            </Header>
             <section>
                 <h1>Pagina de login</h1>
 
