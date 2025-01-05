@@ -13,7 +13,7 @@ function LoginPage(){
                 <h1>Pagina de login</h1>
 
                 <form action="">
-                    <div ssName="container_campo_usuario">
+                    <div className="container_campo_usuario">
                         <label htmlFor="label_usuario">Usuário:</label>
                         <input type="text" name="campo_usuario" id="label_usuario" />
                     </div>
