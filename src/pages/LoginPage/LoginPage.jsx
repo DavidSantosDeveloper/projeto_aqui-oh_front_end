@@ -1,12 +1,13 @@
 import "./LoginPage.css"
 import Header from "../../shared/components/Header/Header.jsx"
+import Footer from "../../shared/components/footer/Footer.jsx"
 
 function LoginPage(){
     return (
         <>
 
             <Header>
-                
+
             </Header>
             <section>
                 <h1>Pagina de login</h1>
@@ -27,6 +28,8 @@ function LoginPage(){
                 </form>
 
             </section>
+
+            <Footer></Footer>
             
 
         </>
