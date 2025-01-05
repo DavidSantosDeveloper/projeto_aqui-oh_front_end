@@ -1,15 +1,16 @@
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 
 
-import "./pages/ChatDenunciaPage/ChatDenunciaPage.jsx"
-import "./pages/DetalhamentoDenunciaPage/DetalhamentoDenunciaPage.jsx"
-import "./pages/HomePage/HomePage.jsx"
-import "./pages/LoginPage/LoginPage.jsx"
-
-import './App.css'
-import HomePage from "./pages/HomePage/HomePage.jsx"
+import ChatDenunciaPage from "./pages/ChatDenunciaPage/ChatDenunciaPage.jsx"
+import DetalhamentoDenunciaPage from "./pages/DetalhamentoDenunciaPage/DetalhamentoDenunciaPage.jsx"
+import HomePage from  "./pages/HomePage/HomePage.jsx"
 import LoginPage from "./pages/LoginPage/LoginPage.jsx"
 import CadrastroPage from "./pages/CadrastroPage/CadrastroPage.jsx"
+
+
+import './App.css'
+
+
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     
       <BrowserRouter>
           <Routes>
+              <Route path="" element={<LoginPage></LoginPage>}></Route>
               <Route path="/" element={<LoginPage></LoginPage>}></Route>
               <Route path="/cadrastro" element={<CadrastroPage></CadrastroPage>}></Route>
               <Route path="/chat" element={<ChatDenunciaPage></ChatDenunciaPage>}></Route>
