@@ -1,8 +1,13 @@
 import "./LoginPage.css"
 import Header from "../../shared/components/Header/Header.jsx"
 import Footer from "../../shared/components/footer/Footer.jsx"
+import { Link } from "react-router-dom"
 
 function LoginPage(){
+
+    async function realizarLogin(formData) {
+        console.log("fez longin")
+    }
     return (
         <>
 
@@ -12,7 +17,7 @@ function LoginPage(){
             <section>
                 <h1>Pagina de login</h1>
 
-                <form action="">
+                <form action={realizarLogin}>
                     <div className="container_campo_usuario">
                         <label htmlFor="label_usuario">Usuário:</label>
                         <input type="text" name="campo_usuario" id="label_usuario" />
@@ -23,6 +28,8 @@ function LoginPage(){
                    </div>
 
                    <button type="submit">Login</button>
+
+                   <Link to="/cadrastro"> Não possui uma conta? faça seu cadratro</Link>
                    
 
                 </form>
