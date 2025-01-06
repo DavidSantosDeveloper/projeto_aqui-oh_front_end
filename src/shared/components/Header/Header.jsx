@@ -1,10 +1,12 @@
 import "./Header.css"
+import  logo from "../../../assets/logo.png"
 
 export default function Header() {
   return (
     <>
       <header>
-              <h1>Header</h1>
+              <img src={logo} alt="Logo do site aqui-oh" />
+
       </header>
     </>
   )

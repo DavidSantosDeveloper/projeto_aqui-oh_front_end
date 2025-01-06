@@ -1,0 +1,55 @@
+section.container_login{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #f5f5f5;
+    /* border: 3px solid green; */
+}
+
+form.container_form_login{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    width: 60vw;
+    height: 300px;
+    height: 70vh;
+    background-color:#FFECEC;
+    /* border: 3px solid green; */
+    border-radius: 30px;
+    background-color: rgba(225, 225, 225, 0.979);
+}
+form.container_form_login div.container_campo_usuario{
+      display: flex;
+      flex-direction: column;
+}
+form.container_form_login div.container_campo_usuario input {
+    min-width: 300px;
+    min-height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+form.container_form_login div.container_campo_senha{
+        display: flex;
+        flex-direction: column;
+}
+form.container_form_login div.container_campo_senha input {
+    min-width: 300px;
+    min-height: 30px;
+    padding-left: 10px;
+
+    border-radius: 5px;
+}
+
+.butao-login{
+    font-size: 24px;
+    padding-inline: 30px;
+    padding-block: 8px;
+    border-radius: 10px;
+}
