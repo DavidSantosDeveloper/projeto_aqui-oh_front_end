@@ -57,12 +57,16 @@ form.container_form_login div.container_campo_senha input:focus {
     padding-inline: 30px;
     padding-block: 5px;
     border-radius: 10px;
+    background-color: #F36926;
+    height: 50px;
+    border: 0px;
 }
 .butao-login:hover{
-   background-color: #F36926;
    color: white;
    transition: 0.1s ease-in-out;
    cursor: pointer;
+   border: 2px solid black;
+   
 }
 a:hover{
     color: #F36926;
