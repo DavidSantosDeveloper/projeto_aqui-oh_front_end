@@ -1,12 +1,14 @@
 section.container_login{
     display: flex;
     flex-direction: column;
-    gap: 20px;
     justify-content: center;
     align-items: center;
     height: 90vh;
-    background-color: #f5f5f5;
+    background-color: #FFECEC;
     /* border: 3px solid green; */
+}
+h1{
+    font-size: 3.5rem;
 }
 
 form.container_form_login{
@@ -46,10 +48,24 @@ form.container_form_login div.container_campo_senha input {
 
     border-radius: 5px;
 }
+form.container_form_login div.container_campo_senha input:focus {
+        /* outline: 1px solid blue; */
+}
 
 .butao-login{
     font-size: 24px;
     padding-inline: 30px;
-    padding-block: 8px;
+    padding-block: 5px;
     border-radius: 10px;
+}
+.butao-login:hover{
+   background-color: #F36926;
+   color: white;
+   transition: 0.1s ease-in-out;
+   cursor: pointer;
+}
+a:hover{
+    color: #F36926;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
 }

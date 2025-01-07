@@ -15,9 +15,10 @@ function LoginPage(){
 
             </Header>
             <section className="container_login">
-                <h1>Pagina de login</h1>
+                
 
                 <form action={realizarLogin} className="container_form_login">
+                    <h1>Login</h1>
                     <div className="container_campo_usuario">
                         <label htmlFor="label_usuario">Usuário:</label>
                         <input type="text" name="campo_usuario" id="label_usuario" />
@@ -27,7 +28,7 @@ function LoginPage(){
                         <input type="text" name="campo_senha" id="label_senha" />
                    </div>
 
-                   <button type="submit" className="butao-login">Login</button>
+                   <button type="submit" className="butao-login">Entrar</button>
 
                    <Link to="/cadrastro"> Não possui uma conta? faça seu cadratro</Link>
                    
